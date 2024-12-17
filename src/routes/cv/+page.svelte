@@ -161,12 +161,12 @@
     <p>Email: <a href="mailto:jshiah@ucsd.edu">jshiah@ucsd.edu</a> | Phone: (408) 826-9652 | <a href="https://www.linkedin.com/in/joyceshiah">LinkedIn</a></p>
 </header>
 
-<section>
+<!-- <section>
     <h2>Objective</h2>
     <p>[Current issue: this messes w/ theme switcher. Dark mode text turns white
         [rest is FIXED] when it goes to dark, some of the text (in education and Skills sections all become white. 
         that's not what dark mode should do..)]</p>
-</section>
+</section> -->
 
 <section>
     <h2>Education</h2>
