@@ -36,6 +36,9 @@
                     <dd>{data.public_repos}</dd>
                     <dt>Public Gists:</dt>
                     <dd>{data.public_gists}</dd>
+                    <!-- Contributions -->
+                    <dt>Contributions (This Past Year):</dt>
+                    <dd><img src="https://ghchart.rshah.org/{data.login}" alt="Contributions Graph" /></dd>
                 </dl>
             {:catch error}
                 <p class="error">Something went wrong while decoding the response: {error.message}</p>
@@ -66,6 +69,7 @@
     }
 
     h1, h2 {
+        font-family: 'Poppins', sans-serif; /* Ensuring Poppins is applied here as well */
         font-weight: 600;
         color: #4A90E2;
         margin-bottom: 20px;
@@ -97,6 +101,7 @@
         gap: 20px;
         font-size: 1.1em;
         margin-top: 20px;
+        font-family: 'Poppins', sans-serif; /* Ensuring Poppins is applied here as well */
     }
 
     .stats-grid dt {

@@ -11,32 +11,36 @@
         { url: 'https://github.com/jshiah', title: 'GitHub' } 
     ];
 
-    // Initialize colorScheme with a default value
-    let colorScheme = 'automatic'; // Default value
-    let root = globalThis?.document?.documentElement; // Access the <html> element
+    let colorScheme = 'automatic'; 
+    let root = globalThis?.document?.documentElement; 
 
     // Function to handle theme change
     function handleThemeChange(event) {
         const scheme = event.target.value;
-        colorScheme = scheme; // Update the variable
+        colorScheme = scheme; 
         if (typeof localStorage !== 'undefined') {
-            localStorage.colorScheme = scheme; // Save to localStorage
+            localStorage.colorScheme = scheme; 
         }
     }
 
-    // Set initial value based on localStorage or OS preference
     onMount(() => {
         if (typeof localStorage !== 'undefined' && "colorScheme" in localStorage) {
             colorScheme = localStorage.colorScheme;
         }
     });
 
-    // Reactive statement to set the color scheme
     $: root?.style.setProperty('color-scheme', colorScheme);
 </script>
 
+<svelte:head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</svelte:head>
+
 <style>
-    /* Global styles for the navbar */
+    body {
+        font-family: 'Poppins', sans-serif; 
+    }
+
     nav {
         display: flex;
         justify-content: space-between;
@@ -53,7 +57,6 @@
         border-radius: 10px;
     }
 
-    /* Styling for the links */
     nav a {
         text-decoration: none;
         font-weight: 600;
@@ -62,6 +65,7 @@
         border-radius: 8px;
         transition: background-color 0.3s, color 0.3s;
         margin: 0 10px;
+        font-family: 'Poppins', sans-serif; 
     }
 
     nav a:hover {
@@ -75,7 +79,6 @@
         font-weight: 700;
     }
 
-    /* Theme Switcher */
     .color-scheme {
         display: flex;
         align-items: center;
@@ -85,6 +88,7 @@
     .color-scheme label {
         font-size: 14px;
         color: #333;
+        font-family: 'Poppins', sans-serif; 
     }
 
     .color-scheme select {
@@ -93,6 +97,7 @@
         background-color: #f0f0f0;
         border: 1px solid #ccc;
         transition: all 0.3s ease;
+        font-family: 'Poppins', sans-serif; 
     }
 
     .color-scheme select:hover {
@@ -101,7 +106,6 @@
         border-color: #4A90E2;
     }
 
-    /* Media Query for smaller screens */
     @media (max-width: 768px) {
         nav {
             flex-direction: column;
@@ -123,7 +127,6 @@
         {/each}
     </div>
 
-    <!-- Modern Theme Switcher -->
     <div class="color-scheme">
         <label for="theme">Theme:</label>
         <select id="theme" bind:value={colorScheme} on:change={handleThemeChange}>

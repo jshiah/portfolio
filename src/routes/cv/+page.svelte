@@ -1,12 +1,22 @@
 <svelte:head>
     <title>Curriculum Vitae - Joyce Shiah</title>
+    <!-- Link to Google Fonts for Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
+        /* Apply Poppins font globally */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Poppins', sans-serif;
             background-color: #f4f7f6;
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            color: #333; /* Default text color for light mode */
+        }
+
+        /* Light Mode Styles */
+        body {
+            background-color: #f4f7f6;
+            color: #333;
         }
 
         header {
@@ -104,6 +114,27 @@
             font-size: 1.1em;
         }
 
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #1e1e1e; /* Dark background */
+            color: #ddd; /* Light text for dark background */
+        }
+
+        header.dark-mode {
+            background-color: #093b58;
+            color: white;
+        }
+
+        section.dark-mode {
+            background-color: #2c2c2c; /* Darker background for sections */
+            color: #ddd; /* Light text for dark mode */
+        }
+
+        footer.dark-mode {
+            background-color: #333; /* Dark footer */
+            color: #bbb; /* Light text for footer */
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             header {
@@ -122,7 +153,6 @@
                 font-size: 1.5em;
             }
         }
-
     </style>
 </svelte:head>
 
@@ -133,8 +163,8 @@
 
 <section>
     <h2>Objective</h2>
-    <p>[Current issue: this messes w/ theme switcher. 
-        when it goes to dark, some of the text (in education and Skills sections all become white. 
+    <p>[Current issue: this messes w/ theme switcher. Dark mode text turns white
+        [rest is FIXED] when it goes to dark, some of the text (in education and Skills sections all become white. 
         that's not what dark mode should do..)]</p>
 </section>
 
