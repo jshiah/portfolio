@@ -36,7 +36,6 @@
                     <dd>{data.public_repos}</dd>
                     <dt>Public Gists:</dt>
                     <dd>{data.public_gists}</dd>
-                    <!-- Contributions -->
                     <dt>Contributions (This Past Year):</dt>
                     <dd><img src="https://ghchart.rshah.org/{data.login}" alt="Contributions Graph" /></dd>
                 </dl>
@@ -50,7 +49,6 @@
 </main>
 
 <style>
-    /* Global Styles */
     body {
         font-family: 'Poppins', sans-serif;
         background-color: #f4f4f9;
@@ -70,13 +68,12 @@
     }
 
     h1, h2 {
-        font-family: 'Poppins', sans-serif; /* Ensuring Poppins is applied here as well */
+        font-family: 'Poppins', sans-serif; 
         font-weight: 600;
         color: #4A90E2;
         margin-bottom: 20px;
     }
 
-    /* Styling for the intro section */
     .intro {
         text-align: center;
         margin-bottom: 40px;
@@ -91,7 +88,6 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    /* Stats section */
     .github-stats {
         margin-top: 40px;
     }
@@ -102,7 +98,7 @@
         gap: 20px;
         font-size: 1.1em;
         margin-top: 20px;
-        font-family: 'Poppins', sans-serif; /* Ensuring Poppins is applied here as well */
+        font-family: 'Poppins', sans-serif; 
     }
 
     .stats-grid dt {
@@ -115,19 +111,16 @@
         color: #666;
     }
 
-    /* Error messages */
     .error {
         color: #e74c3c;
         font-weight: bold;
     }
 
-    /* Styling for links or emphasized text */
     i {
         color: #4A90E2;
         font-style: italic;
     }
 
-    /* Responsive Design */
     @media (max-width: 768px) {
         .stats-grid {
             grid-template-columns: 1fr;
