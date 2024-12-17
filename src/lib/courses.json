@@ -1,0 +1,79 @@
+[
+    {
+        "title": "DSC 209R Data Visualization",
+        "year": "2024",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "DSC 256R Web Mining and Recommender Systems",
+        "year": "2024",
+        "institution": "UC San Diego",
+        "grade": "Grade: A+"},
+    {
+        "title": "DSC 232R Big Data Analytics Using Spark",
+        "year": "2024",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "DSC 255R Machine Learning Fundamentals",
+        "year": "2024",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "DSC 208R Data Management for Analytics",
+        "year": "2024",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "DSC 207R Python for Data Science",
+        "year": "2023",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "DSC 215R Probability and Statistics in Data Science",
+        "year": "2023",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "DSC 207R Python for Data Science",
+        "year": "2023",
+        "institution": "UC San Diego",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "MATH004A Intermediate Calculus",
+        "year": "2023",
+        "institution": "West Valley College",
+        "description": "Grade: A"
+    },
+    {
+        "title": "MATH004C Linear Algebra",
+        "year": "2022",
+        "institution": "West Valley College",
+        "grade": "Grade: A"
+    },
+    {
+        "title": "MATH003B Calculus and Analytical Geometry",
+        "year": "2022",
+        "institution": "West Valley College",
+        "description": "Grade: A"
+    },
+    {
+        "title": "COMPSCI X434-013 Programming Python",
+        "year": "2022",
+        "institution": "UC Berkeley Extension",
+        "description": "Grade: A"
+    },
+    {
+        "title": "STA2300 Intro to Data Science",
+        "year": "2021",
+        "institution": "Baylor University",
+        "description": "Grade: A"
+    }
+]

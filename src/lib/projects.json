@@ -1,0 +1,26 @@
+[
+    {
+        "title": "NLP BERT Name Entity Recognition model for Barracuda Networks Competitive Intelligence ",
+        "year": "2024",
+        "description": "A dynamic visualization of Boston's bike traffic trends using D3.js, Svelte, and Mapbox GL. This project showcases geospatial data, interactive time filtering, and a custom legend for traffic flow representation."
+    },
+
+    {
+        "title": "DSC209R Lab 8: Geospatial Visualization ",
+        "year": "2024",
+        "description": "A dynamic visualization of Boston's bike traffic trends using D3.js, Svelte, and Mapbox GL. This project showcases geospatial data, interactive time filtering, and a custom legend for traffic flow representation.",
+        "url": "https://jshiah.github.io/dsc209r_lab8/"
+    },
+    {
+        "title": "Repudiandae explicabo est tempore.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Placeat ipsum veniam soluta, numquam illo ab id unde consectetur repellat inventore! Optio et, nulla placeat quaerat accusamus ipsum! Ut placeat quas veritatis obcaecati fugiat eum quod alias doloribus quia!"
+    },
+    {
+        "title": "Quae excepturi consequuntur quisquam.",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Ut itaque sequi commodi molestias. Beatae molestias voluptate dolorem sunt quaerat similique assumenda rerum corporis omnis, placeat maxime! Veniam, labore error recusandae quae ipsa soluta quod officia sapiente quaerat modi?"
+    }
+]
